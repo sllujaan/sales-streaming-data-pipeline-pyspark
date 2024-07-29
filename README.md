@@ -1,6 +1,6 @@
-# Real-Time Sales Data Pipeline and Data Warehouse with PySpark
+# Real-Time Data Pipeline and Warehouse for Sales Using PySpark
 
-This project demonstrates a comprehensive real-time data warehouse solution for sales data from raw files.
+This project demonstrates a comprehensive real-time data warehouse solution for processing and analyzing incoming sales data from raw files.
 
 ## Project Overview
 
@@ -14,6 +14,14 @@ This project provides solutions for:
 
 1. **Apache Spark (PySpark)**: Utilized for Structured Streaming to handle real-time data processing.
 2. **SQL**: Employed for querying and managing data within the data warehouse.
-3. **Python**: Along with libraries like Pandas and Matplotlib for data manipulation and visualization.
+3. **Python**: Used for data manipulation and visualization with libraries such as Pandas and Matplotlib.
 
-This project showcases how to build an end-to-end real-time data warehouse solution, ensuring that sales data is processed, stored, and analyzed efficiently.
+## ETL Life Cycle
+
+The project implements the full ETL (Extract, Transform, Load) life cycle:
+
+1. **Extract**: Raw sales data is ingested from various sources.
+2. **Transform**: Data is processed and transformed in real-time using PySpark Structured Streaming.
+3. **Load**: Transformed data is loaded into the data warehouse for storage and further analysis.
+
+This project showcases an end-to-end solution for real-time data warehousing, ensuring that sales data is processed, stored, and analyzed efficiently.
