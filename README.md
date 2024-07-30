@@ -26,5 +26,5 @@ The project implements the full ETL (Extract, Transform, Load) life cycle:
 
 This project showcases an end-to-end solution for real-time data warehousing, ensuring that sales data is processed, stored, and analyzed efficiently.
 
-Here is the project architecture diagram:
+## Architecture Diagram
 ![data-pipeline-pyspark drawio](https://github.com/user-attachments/assets/5e683f95-e8c9-4854-84bc-cb4b2ef50cdc)
